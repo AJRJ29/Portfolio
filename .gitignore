@@ -1,0 +1,7 @@
+.next
+.env
+.env.buil
+node_modules
+npm-debug.logs*
+yarn-debug.logs*
+yarn-error.logs*
