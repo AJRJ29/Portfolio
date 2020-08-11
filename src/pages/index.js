@@ -1,5 +1,5 @@
-import Projects from '../components/projects'
-import Picture from '../components/picture'
+import Projects from '../src/components/Projects'
+import Picture from '../src/components/Picture'
 import Head from 'next/head';
 
 
