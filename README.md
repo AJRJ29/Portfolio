@@ -28,3 +28,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+          {/* <div className="icon-container">
+            <img classname="icon1" src="https://img.icons8.com/color/96/000000/html-5.png"/>
+            <img src="https://img.icons8.com/color/96/000000/javascript.png"/>
+            <img src="https://img.icons8.com/color/96/000000/python.png"/>
+            <img src="https://img.icons8.com/color/96/000000/postgreesql.png"/>
+            <img src="https://img.icons8.com/color/96/000000/mongodb.png"/>
+            <img src="https://img.icons8.com/color/96/000000/git.png"/>
+            <img src="https://img.icons8.com/color/96/000000/css3.png"/>
+            <img src="https://img.icons8.com/color/96/000000/react-native.png"/>
+          </div> */}

@@ -10,18 +10,13 @@ export default function Navbar() {
   return (
     <div>
       <Head>
-        <title>Zocher Portfolio</title>
+        <title>Josh's Portfolio</title>
       </Head>
       <navbar>
         <ul>
           <li>
             <Link href="/">
               <a id="home">Home</a>
-            </Link>
-          </li>
-          <li>            
-            <Link href="/about">
-              <a>About</a>
             </Link>
           </li>
         </ul>
