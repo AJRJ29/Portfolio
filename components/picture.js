@@ -13,7 +13,7 @@ export default function Picture() {
           <p>a software engineer and a former courier who's passionate for collabiration with clients and other engineers, to create interesting fun projects</p>
           <p>JavaScript, HTML, CSS, Express, SQL, MongooDB, Python, React, Next.js</p>
           <Row>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vR_RpipPT0JMwZR7dWdRGFV26WMCb-MHORhX_-FMQxPF4e5LthxLJ_yOIB_f9smDMjowNwur7zSeTcf/pub"><p className="mr-3 ml-3">Resume</p></a>
+            <a href="https://docs.google.com/document/d/1c6ltuwOmd3gDgtNMGEQDNTy9-3k-PYYNkyGThqDqxBo/edit"><p className="mr-3 ml-3">Resume</p></a>
             <a href="https://github.com/AJRJ29?tab=repositories"><p className="mr-3 ml-3">Github</p></a>
           </Row>  
           </Card.Text>
