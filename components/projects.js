@@ -14,12 +14,12 @@ export default function Projects() {
         </Card.Body>
       </Card>
       <Card className="m-5 w-75">
-        <Card.Header><h1>Breakout</h1></Card.Header>
+        <Card.Header><h1>MyAnime</h1></Card.Header>
         <Card.Body>
         <Card.Title className="p-3"><img src="./img/my_anime.png" /></Card.Title>
           <Card.Text>
-            <h5>Users can control the paddle with the mouse to bounce off the ball and destroy all the bricks.</h5>
-            <h5>It was created using JavaScript, HTML-Canvas</h5>
+            <h5>Muanime is a full stack app allowing users to create and join other created indoor events</h5>
+            <h5>It was created using Javasript, PostgreSQL, Sequelize and Jikan API.</h5>
           </Card.Text>
         </Card.Body>
       </Card>
