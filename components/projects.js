@@ -4,12 +4,13 @@ export default function Projects() {
   return(
     <div className="projects-container">
       <Card className="m-5 w-75">
-        <Card.Header><h1>Stay Inside</h1></Card.Header>
+        <Card.Header className=""><h1>Stay Inside</h1></Card.Header>
         <Card.Body>
           <Card.Title className="p-3"><img src="./img/stay_inside.png" /></Card.Title>
           <Card.Text>
             <h5>Stay-inside is a social media web app made to encourage people to have an online gathering events during this pandemic.</h5>
             <h5>It was created using JavaScript, Express, React, MongoDB and Node.</h5>
+            <a href="https://serene-albattani-33a131.netlify.app/signup">link here</a>
           </Card.Text>
         </Card.Body>
       </Card>
@@ -18,8 +19,9 @@ export default function Projects() {
         <Card.Body>
         <Card.Title className="p-3"><img src="./img/my_anime.png" /></Card.Title>
           <Card.Text>
-            <h5>Muanime is a full stack app allowing users to create and join other created indoor events</h5>
+            <h5>MyAnime is a full stack app allowing users to create and join other created indoor events</h5>
             <h5>It was created using Javasript, PostgreSQL, Sequelize and Jikan API.</h5>
+            <a href="https://seir-auth.herokuapp.com/">link here</a>
           </Card.Text>
         </Card.Body>
       </Card>
