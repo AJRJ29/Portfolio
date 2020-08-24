@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card  from 'react-bootstrap/Card'
-import Link from 'next/link'
+
 
 export default function Picture() {
   return (
@@ -13,10 +13,10 @@ export default function Picture() {
           <Card.Header><h1>Joshua Danao</h1></Card.Header>
           <Card.Body>
             <Card.Text>
-              <p>A software engineer and a former courier who's passionate for collaboration with clients and other engineers, to create interesting fun projects with Javascript and React.</p>
+              <p>A software engineer and a former courier who's passionate for collaboration with clients and other engineers to create interesting fun projects with Javascript and React.</p>
               <p>JavaScript, HTML, CSS, Express, SQL, MongooDB, Python, React, Next.js</p>
               <Row>
-                <a href="https://docs.google.com/document/d/1c6ltuwOmd3gDgtNMGEQDNTy9-3k-PYYNkyGThqDqxBo/edit"><p className="mr-3 ml-3">Resume</p></a>
+                <a href="/img/Resume.pdf"><p className="mr-3 ml-3">Resume</p></a>
                 <a href="https://github.com/AJRJ29?tab=repositories"><p className="mr-3 ml-3">Github</p></a>
               </Row>  
             </Card.Text>
