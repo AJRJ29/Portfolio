@@ -147,20 +147,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-wrap: wrap;
   /* border: 1px solid blue; */
   height: 100%;
   width: 100%;
-  margin-right: 100px
-}
-.picture-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid blue; */
-  height: 623px;
-  width: 467px;
-  margin: 50px
 }
 
 .icon-container {

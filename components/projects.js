@@ -3,6 +3,9 @@ import Card  from 'react-bootstrap/Card'
 export default function Projects() {
   return(
     <div className="projects-container">
+      <Card className="m-5 w-50">
+        <Card.Header className=" d-flex justify-content-center align-items-center"><h1>Projects</h1></Card.Header>
+      </Card>
       <Card className="m-5 w-75">
         <Card.Header className=""><h1>Stay Inside</h1></Card.Header>
         <Card.Body>
@@ -10,7 +13,7 @@ export default function Projects() {
           <Card.Text>
             <h5>Stay-inside is a social media web app made to encourage people to have an online gathering events during this pandemic.</h5>
             <h5>It was created using JavaScript, Express, React, MongoDB and Node.</h5>
-            <a href="https://5f3ec78db541290007123c2c--serene-albattani-33a131.netlify.app/login">link here</a>
+            <a href="https://serene-albattani-33a131.netlify.app/login">link here</a>
           </Card.Text>
         </Card.Body>
       </Card>
