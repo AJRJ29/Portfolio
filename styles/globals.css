@@ -1,4 +1,4 @@
- /* html,
+  html,
 body {
   padding: 0;
   margin: 0;
@@ -6,18 +6,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-} */
+}  */
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -143,21 +143,21 @@ img {
   margin: 20px
 }
 
-.picture1-container {
+.picture-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   /* border: 1px solid blue; */
   height: 100%;
   width: 100%;
 }
 
-.icon-container {
+/* .icon-container {
   height: auto;
   width: 10%;
   min-width: 100px;
   display: flex;
   flex-direction: row;
-} 
+}  */
 

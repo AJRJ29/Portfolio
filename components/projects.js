@@ -9,7 +9,7 @@ export default function Projects() {
       <Card className="m-5 w-75">
         <Card.Header className=""><h1>Stay Inside</h1></Card.Header>
         <Card.Body>
-          <Card.Title className="p-3"><img src="./img/stay_inside.png" /></Card.Title>
+          <Card.Title className="p-3"><a href="https://serene-albattani-33a131.netlify.app/login"><img src="./img/stay_inside.png" /></a></Card.Title>
           <Card.Text>
             <h5>Stay-inside is a social media web app made to encourage people to have an online gathering events during this pandemic.</h5>
             <h5>It was created using JavaScript, Express, React, MongoDB and Node.</h5>
