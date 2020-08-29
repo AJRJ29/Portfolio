@@ -11,9 +11,9 @@ export default function Picture() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className="w-75 h-50 m-2 border-0">
+      <Card className="w-75 h-50 m-2 border-0 d-flex flex-row flex-wrap">
         <Card.Body className="d-flex justify-content-center align-items-center">
-          <Card.Text className="d-flex flex-row justify-content-center align-items-center">
+          <Card.Text className="d-flex justify-content-center align-items-center">
             <img src="./img/josh.jpeg" className="picture shadow-lg h-25 w-25 mr-3"/>
             <Card.Text className="d-flex flex-column align-items-flex-start">
               <h5 className="mr-3 ml-3">JavaScript, HTM, CSS, Express, Sequelize, MongoDB, Python, React, Next.js,  Bootstrap, Materialize, Node, CanvasEJS, Git/GitHub, Postgre, SQL, React Native.</h5>
