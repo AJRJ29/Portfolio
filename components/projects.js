@@ -29,6 +29,16 @@ export default function Projects() {
         </Card.Body>
       </Card>
       <Card className="m-5 w-75">
+        <Card.Header><h1>What's App Clone</h1></Card.Header>
+        <Card.Body>
+        <Card.Title className="p-3"><a href="https://whats-app-clone-c54dd.web.app/"><img src="./img/whatsapp.png" /></a></Card.Title>
+          <Card.Text>
+            <h5>Users can create a room and chat with other users.</h5>
+            <h5>It was created using JavaScript, HTML, CSS, Materia-UI ReactJs, React Context API, Firebase And Google Authentication</h5>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card className="m-5 w-75">
         <Card.Header><h1>Breakout</h1></Card.Header>
         <Card.Body>
         <Card.Title className="p-3"><img src="./img/breakeout.png" /></Card.Title>
