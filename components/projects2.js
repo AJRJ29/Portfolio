@@ -5,7 +5,7 @@ function Projects2() {
     <section id="project2" className="project2">
       <div className="project2__container">
         <div className="project2__body">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My <b>Projects</b>.</h1>
             <div className="project2__content">
             <a href="https://serene-albattani-33a131.netlify.app">
               <img src="./img/stay_inside.png" alt="" />

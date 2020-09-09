@@ -148,7 +148,7 @@ img {
   position: relative;
   height: 800px;
   min-height: 500px;
-  background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49204733_2665476393478903_2189383064017174528_n.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=ZvIjjPu6WosAX9TqTTc&_nc_ht=scontent-sea1-1.xx&oh=85ad3d135174b68ae199a948f5fe95ae&oe=5F7B83F0');
+  background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49204733_2665476393478903_2189383064017174528_n.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=ZvIjjPu6WosAX_qA3t_&_nc_ht=scontent-sea1-1.xx&oh=a70a963ac09155e09d2a5213aad42e47&oe=5F7F7870');
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -238,18 +238,19 @@ img {
   align-items: center;
 }
 
-.MuiButton-label {
+.about__resume > p > .MuiButton-root {
   text-align: center;
-  padding-right: 7px;
+  padding-right: 15px;
   color: white;
 }
 
-.MuiButton-root {
+.about__resume > p > .MuiButton-root {
   background: #444 !important;
 }
 
-.MuiButton-root:hover {
-  background: black !important; 
+.about__resume > p > .MuiButton-root:hover {
+  background-color: white !important; 
+  color: black !important;
 }
 
 .experience {
@@ -257,8 +258,6 @@ img {
   align-items: center;
   flex-direction: column;
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 70px;
   overflow: hidden;
 }
 
@@ -328,122 +327,9 @@ img {
   display: flex;
 }
 .experience__skillsUl {
-  display: flex;
+  margin-right: 60px;
   list-style: none;
-  flex-direction: column;
 } 
-
-.experience__skillsList1 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsList2 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsList3 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsList4 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsList5 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsList6 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsList7 {
-  height: 42px;
-  width: 50%;
-  margin-right: 100px;
-  margin-bottom: 45px;
-}
-
-.experience__skillsSpan1 {
-  width: 40%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.experience__skillsSpan2 {
-  width: 50%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.experience__skillsSpan3 {
-  width: 40%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.experience__skillsSpan4 {
-  width: 40%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.experience__skillsSpan5 {
-  width: 30%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.experience__skillsSpan6 {
-  width: 30%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-
-.experience__skillsSpan7 {
-  width: 20%;
-  position: absolute;
-  margin: 0;
-  background: #313131;
-  height: 42px;
-  border-radius: 3px 0 0 3px;
-}
 
 .project2 {
   background: #ebeeee;
@@ -452,7 +338,7 @@ img {
 }
 
 .project2__body > h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
+  font: 20px/30px 'opensans-semibold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -468,6 +354,11 @@ img {
 
 .project2__body {
   width: 100%;
+}
+
+.project2__body > h1 > b {
+  border-bottom: 3px solid;
+  color: #11ABB0;
 }
 
 .project2__content {
@@ -548,12 +439,22 @@ img {
   margin-bottom: 50px;
 }
 
-.contact_button {
+.contact__button {
+  display: flex;
+  justify-content: flex-end;
   height: 50px;
 }
 
-.contact_button > button {
-  padding: 50px;
-  height: 50px;
-  color: #11ABB0;
+.contact__button > button  {
+  padding: 20px;
+  height: 20px;
+  color: white;
+  background: #373233;
+}
+
+.contact__button > button:hover  {
+  padding: 20px;
+  height: 20px;
+  color: black;
+  background: white;
 }

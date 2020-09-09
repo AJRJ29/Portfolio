@@ -25,7 +25,8 @@ export default function About() {
               <div className="about__resume">
                 <p>
                     <Button href="/img/Resume.pdf" className="about__button">
-                    <GetAppIcon />Download Resume</Button>
+                      <GetAppIcon />Download Resume
+                    </Button>
                 </p>
               </div>
             </div>
