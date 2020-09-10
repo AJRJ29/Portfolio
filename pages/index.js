@@ -1,5 +1,3 @@
-import Projects from '../components/projects'
-import Picture from '../components/picture'
 import Header from '../components/header'
 import Head from 'next/head';
 import About from '../components/about';

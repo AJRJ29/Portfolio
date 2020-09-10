@@ -28,60 +28,27 @@ function Experience() {
           <h3><span>Skills</span></h3>
         </div>
         <div className="experience__skillsDetails">
-          <p></p>
-          <div className="experience__skillsBars">
-            <ul className="experience__skillsUl">
-              <li className="experience__skillsList">
-                <h5>Javascript</h5>
-              </li>
-              <li className="experience__skillsList">
-                <h5>HTML</h5>
-              </li>
-              <li className="experience__skillsList">
-                <h5>CSS</h5>
-              </li>
-              <li className="experience__skillsList">
-                <h5>ReactJs</h5>
-              </li>
-              <li className="experience__skillsList">
-                <h5>Express</h5>              
-              </li>
-            </ul>
-            <ul className="experience__skillsUl">
-              <li className="experience__skillsList">
-                <h5>Sequelize</h5>                
-              </li>
-              <li className="experience__skillsList">
-                <h5>MongoDb</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>Postgres</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>Canvas</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>Node</h5>       
-              </li>
-            </ul>
-            <ul className="experience__skillsUl">
-              <li className="experience__skillsList">
-                <h5>MaterialUI</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>Bootstrap</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>Next.js</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>Python</h5>       
-              </li>
-              <li className="experience__skillsList">
-                <h5>React Native</h5>       
-              </li>
-            </ul>
+          <div className="experience__skillsOne">
+            <h5>Javascript</h5>
+            <h5>HTML</h5>
+            <h5>CSS</h5>
+            <h5>ReactJs</h5>
+            <h5>Express</h5>  
           </div>
+          <div className="experience__skillsTwo">
+            <h5>Sequelize</h5>                
+            <h5>MongoDb</h5>       
+            <h5>Postgres</h5>       
+            <h5>Canvas</h5>       
+            <h5>Node</h5> 
+          </div>
+          <div className="experience__skillsThree"> 
+            <h5>MaterialUI</h5>       
+            <h5>Bootstrap</h5>       
+            <h5>Next.js</h5>       
+            <h5>Python</h5>       
+            <h5>React Native</h5> 
+          </div>                       
         </div>
       </div>
     </section>
