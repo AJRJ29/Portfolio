@@ -11,7 +11,6 @@ export default function About() {
         <di className="about__body">
           <div className="about__aboutMe">
             <h2>About Me</h2>
-
             <p>A software engineer and former courier with a passion for collaboration with both clients and developers in order to create interesting solutions through projects made with JavaScript, React, SQL, and other technologies. My time as a software engineer has allowed me to strengthen both my technical expertise, along with my soft-skills including effective multidisciplinary collaboration, maintaining proper expectations, and ensuring client satisfaction.</p>
             <div className="about__detailsContainer">
               <div className="about__details">
@@ -24,9 +23,9 @@ export default function About() {
               </div>
               <div className="about__resume">
                 <p>
-                    <Button href="/img/Resume.pdf" className="about__button">
-                      <GetAppIcon />Download Resume
-                    </Button>
+                  <Button href="/img/Resume.pdf" className="about__button">
+                    <GetAppIcon />Download Resume
+                  </Button>
                 </p>
               </div>
             </div>
