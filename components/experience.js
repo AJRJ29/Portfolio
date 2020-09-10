@@ -32,7 +32,7 @@ function Experience() {
             <h5>Javascript</h5>
             <h5>HTML</h5>
             <h5>CSS</h5>
-            <h5>ReactJs</h5>
+            <h5>Python</h5>
             <h5>Express</h5>  
           </div>
           <div className="experience__skillsTwo">
@@ -46,7 +46,7 @@ function Experience() {
             <h5>MaterialUI</h5>       
             <h5>Bootstrap</h5>       
             <h5>Next.js</h5>       
-            <h5>Python</h5>       
+            <h5>ReactJs</h5>       
             <h5>React Native</h5> 
           </div>                       
         </div>
