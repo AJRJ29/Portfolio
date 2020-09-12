@@ -15,7 +15,7 @@ function Header() {
             <IconButton href="https://www.linkedin.com/in/josh-danao-7790701b0/">
               <LinkedInIcon />  
             </IconButton>
-            <IconButton>
+            <IconButton href="https://github.com/AJRJ29">
               <GitHubIcon />
             </IconButton>
           </div>
