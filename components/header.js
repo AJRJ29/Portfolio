@@ -2,6 +2,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { IconButton } from '@material-ui/core'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
 
 function Header() {
   return (
@@ -17,6 +19,9 @@ function Header() {
             </IconButton>
             <IconButton href="https://github.com/AJRJ29">
               <GitHubIcon />
+            </IconButton>
+            <IconButton href="https://www.facebook.com/joshua.danao.7">
+              <FacebookIcon />
             </IconButton>
           </div>
         </div>
