@@ -26,11 +26,6 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="header__scrolldown">
-        <IconButton href="#about">
-          <ArrowDropDownCircleIcon />
-        </IconButton>
-      </div>
     </div>
   )
 }

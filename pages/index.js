@@ -4,11 +4,13 @@ import About from '../components/about';
 import Experience from '../components/experience';
 import Projects2 from '../components/projects2';
 import Contact from '../components/contact';
+import Email from '../components/email';
 
 
 export default function Home() {
   return (
     <div className="app">
+      <Email />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -22,9 +24,7 @@ export default function Home() {
       <About />
       <Experience />
       <Projects2 />
-      <Contact />
-      {/* <Picture />
-      <Projects /> */}
+      {/* <Contact /> */}
     </div>
   )
 }
