@@ -18,7 +18,7 @@ export default function About() {
                   <p className="about__address">
                     <span>Joshua Danao</span><br />
                     <span> Seattle, Wa<br /></span>
-                    <span>joshdanao20@gmail.com</span><br />
+                    <span>joshdanao29@gmail.com</span><br />
                   </p>
               </div>
               <div className="about__resume">
