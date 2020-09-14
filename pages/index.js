@@ -3,7 +3,6 @@ import Head from 'next/head';
 import About from '../components/about';
 import Experience from '../components/experience';
 import Projects2 from '../components/projects2';
-import Contact from '../components/contact';
 import Email from '../components/email';
 
 
@@ -24,7 +23,6 @@ export default function Home() {
       <About />
       <Experience />
       <Projects2 />
-      {/* <Contact /> */}
     </div>
   )
 }

@@ -1,13 +1,10 @@
-import { Container, Box, Button } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 
 export default function About() {
   return (
       <section id="about" className="about">
-        {/* <div className="about__picture">
-        <img className="about__image"  src="./img/josh.jpeg" alt="" />
-        </div> */}
         <di className="about__body">
           <div className="about__aboutMe">
             <h2>About Me</h2>
