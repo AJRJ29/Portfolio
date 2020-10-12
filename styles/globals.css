@@ -20,7 +20,7 @@ body, html {
   position: relative;
   height: 800px;
   min-height: 500px;
-  background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49204733_2665476393478903_2189383064017174528_n.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=ZvIjjPu6WosAX_qA3t_&_nc_ht=scontent-sea1-1.xx&oh=a70a963ac09155e09d2a5213aad42e47&oe=5F7F7870');
+  background: url('/img/josh.jpg');
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -382,6 +382,7 @@ body, html {
   color: black;
   background: white;
 }
+
 .email {
   bottom: 0;
   position: fixed;
@@ -400,4 +401,18 @@ body, html {
 
 .email > button:focus  {
   outline: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > .MuiIconButton-root > span > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+
+.footer > .MuiIconButton-root:hover  {
+  color: white;
 }

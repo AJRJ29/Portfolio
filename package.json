@@ -10,6 +10,7 @@
     "newsapi": "^2.4.1",
     "next": "9.5.1",
     "react": "16.13.1",
+    "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^1.3.0",
     "react-dom": "16.13.1"
   },

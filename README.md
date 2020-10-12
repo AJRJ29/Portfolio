@@ -39,3 +39,23 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
             <img src="https://img.icons8.com/color/96/000000/css3.png"/>
             <img src="https://img.icons8.com/color/96/000000/react-native.png"/>
           </div> */}
+
+export default function Home() {
+  return (
+      {/* <Email />
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
+      </Head>
+      <Header />
+      <About />
+      <Experience />
+      <Projects2 />
+      <Footer /> */}
+  )
+}
