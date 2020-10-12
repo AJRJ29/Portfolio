@@ -23,7 +23,6 @@ export default function Home() {
       <About />
       <Experience />
       <Projects2 />
-      <Footer />
     </div>
   )
 }
