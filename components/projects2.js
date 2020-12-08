@@ -7,7 +7,7 @@ function Projects2() {
         <div className="project2__body">
             <h1>Check Out Some of My <b>Projects</b>.</h1>
             <div className="project2__content">
-              <a href="https://stay-inside.netlify.app/signup">
+              <a href="https://stay-inside.netlify.app/login">
                 <p>
                   <h3>Stay Inside</h3>
                   <p>Stay-inside is a social media web app made to encourage people to have an online gathering events during this pandemic.</p>
