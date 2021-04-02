@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > .MuiIconButton-root > span > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+
+.footer > .MuiIconButton-root:hover  {
+  color: white;
+}

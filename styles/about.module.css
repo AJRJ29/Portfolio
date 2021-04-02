@@ -1,0 +1,65 @@
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  overflow: hidden;
+  background: #2B2B2B;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto
+}
+
+.about__aboutMe {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
+.about__aboutMe > p {
+  color: #7A7A7A;
+}
+.about__detailsContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about__details {
+  flex: 0.70;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__address {
+  color: #7A7A7A;
+}
+
+.about__resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__button {
+  padding: 20px;
+}
+
+.about__resume > p > .MuiButton-root {
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  color: white;
+  background: #444 !important;
+}
+
+/* .about__resume > p > .MuiButton-root {
+  background: #444 !important;
+} */
+
+.about__resume > p > .MuiButton-root:hover {
+  background-color: white !important; 
+  color: black !important;
+}

@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  background: url('/img/josh.jpg');
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header__bannerText > h1 {
+  font: 90px/1.1em 'opensans-bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.header__bannerText > h3 {
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+.header__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.header__icons > .MuiIconButton-root > span > .MuiSvgIcon-root {
+  font-size: 40px !important;
+}
+
+.header__icons > a:hover  {
+  color: white;
+}
+
+.header__icons > .MuiIconButton-root:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.header__scrolldown {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__scrolldown > .MuiIconButton-root > span > .MuiSvgIcon-root {
+  font-size: 50px !important;
+}
+
+.header__scrolldown > a:hover {
+  color: white;
+}

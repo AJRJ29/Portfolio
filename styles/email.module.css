@@ -1,0 +1,33 @@
+.email {
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.email > .MuiIconButton-root > span > .MuiSvgIcon-root {
+  font-size: 50px !important;
+}
+
+.email > .MuiIconButton-root:hover {
+  color: #11ABB0;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.email > button:focus  {
+  outline: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > .MuiIconButton-root > span > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+
+.footer > .MuiIconButton-root:hover  {
+  color: white;
+}

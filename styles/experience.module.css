@@ -1,0 +1,83 @@
+.experience {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  overflow: hidden;
+}
+
+.experience__education  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  border-bottom: 1px solid #E8E8E8;
+  padding: 50px;
+}
+
+.experience__educationHeader {
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.experience__educationHeader > h3 > span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+
+.experience__work {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  border-bottom: 1px solid #E8E8E8;
+  padding: 50px;
+}
+
+.experience__workHeader {
+  margin-right: 159px;
+  margin-bottom: 30px;
+}
+
+.experience__workHeader > h3 > span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+
+.experience__skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.experience__skillsHeader {
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.experience__skillsHeader > h3 > span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+
+.experience__skillsDetails {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.experience__skillsOne {
+  margin-right: 20px;
+}
+
+.experience__skillsTwo {
+  margin-right: 20px;
+}
