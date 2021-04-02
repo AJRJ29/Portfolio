@@ -12,10 +12,10 @@ function Email() {
   const handleClick = (e) => {
     e.preventDefault();
     window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
-    setName("")
-    setSubject("")
-    setEmail("")
-    setMessage("")
+    setName("");
+    setSubject("");
+    setEmail("");
+    setMessage("");
  }
  
   return (

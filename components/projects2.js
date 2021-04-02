@@ -1,4 +1,4 @@
-import styles from '../styles/projects2.module.css'
+import styles from '../styles/projects2.module.css';
 
 function Projects2() {
   return (
@@ -46,4 +46,4 @@ function Projects2() {
   )
 }
 
-export default Projects2
+export default Projects2;
