@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/AJRJ29/Portfolio/issues"
   },
-  "homepage": "https://github.com/AJRJ29/Portfolio#readme"
+  "homepage": "https://github.com/AJRJ29/Portfolio#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  }
 }

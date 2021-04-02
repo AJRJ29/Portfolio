@@ -1,12 +1,12 @@
-
+import styles from '../styles/projects2.module.css'
 
 function Projects2() {
   return (
-    <section id="project2" className="project2">
-      <div className="project2__container">
-        <div className="project2__body">
+    <section id="project2" className={styles.project2}>
+      <div className={styles.project2__container}>
+        <div className={styles.project2__body}>
             <h1>Check Out Some of My <b>Projects</b>.</h1>
-            <div className="project2__content">
+            <div className={styles.project2__content}>
               <a href="https://stay-inside.netlify.app/login">
                 <p>
                   <h3>Stay Inside</h3>

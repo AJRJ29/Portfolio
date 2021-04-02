@@ -55,10 +55,6 @@
   background: #444 !important;
 }
 
-/* .about__resume > p > .MuiButton-root {
-  background: #444 !important;
-} */
-
 .about__resume > p > .MuiButton-root:hover {
   background-color: white !important; 
   color: black !important;
