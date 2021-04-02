@@ -1,8 +1,8 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import { IconButton } from '@material-ui/core'
+import { IconButton } from '@material-ui/core';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import styles from '../styles/header.module.css'
+import styles from '../styles/header.module.css';
 
 function Header() {
   return (

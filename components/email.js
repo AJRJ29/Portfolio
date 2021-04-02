@@ -1,7 +1,7 @@
 import { IconButton } from '@material-ui/core';
 import EmailIcon from '@material-ui/icons/Email';
 import { useState } from 'react';
-import styles from '../styles/email.module.css'
+import styles from '../styles/email.module.css';
 
 function Email() {
   const [name, setName] = useState('');
